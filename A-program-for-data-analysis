@@ -1,0 +1,17 @@
+# A-program-for-data-analysis
+
+import pandas as pd
+import numpy as np
+
+# load the data from a CSV file
+data = pd.read_csv('data.csv')
+
+# perform some basic analysis
+mean = np.mean(data)
+median = np.median(data)
+std_dev = np.std(data)
+
+# print the results
+print("Mean: ", mean)
+print("Median: ", median)
+print("Standard Deviation: ", std_dev)
